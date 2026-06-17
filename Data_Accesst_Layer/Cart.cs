@@ -1,4 +1,4 @@
-﻿using Data_Accesst_Layer.DB;
+﻿using Data_Access_Layer.DB;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data_Accesst_Layer
+namespace Data_Access_Layer
 {
     public class Cart
     {

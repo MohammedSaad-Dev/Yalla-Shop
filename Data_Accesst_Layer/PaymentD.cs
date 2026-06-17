@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Data_Accesst_Layer.DB;
+using Data_Access_Layer.DB;
 namespace Data_Accesst_Layer
 {
     public class PaymentD

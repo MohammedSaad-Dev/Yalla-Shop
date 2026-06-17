@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
-using Data_Accesst_Layer.DB;
+using Data_Access_Layer.DB;
 
 namespace Data_Accesst_Layer
 {

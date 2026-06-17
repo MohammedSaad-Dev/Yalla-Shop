@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data_Accesst_Layer.DB
+namespace Data_Access_Layer.DB
 {
     public class Connection_DB
     {
