@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Data_Accesst_Layer\Data_Accesst_Layer.csproj" />
+    <ProjectReference Include="..\Data_Accesst_Layer\Data_Access_Layer.csproj" />
   </ItemGroup>
 
 </Project>
