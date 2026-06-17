@@ -46,7 +46,7 @@ namespace Business_Layer
 
     
 
-    public class Users
+    public  static class Users
     {
         public static User Login(Login_Request request) 
         {

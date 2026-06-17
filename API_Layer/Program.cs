@@ -1,5 +1,5 @@
 ﻿using Business_Layer;
-using Data_Accesst_Layer.DB;
+using Data_Access_Layer.DB;
 using Graduation_Projecte.Controllers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;

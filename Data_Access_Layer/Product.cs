@@ -2,7 +2,7 @@
 using System.Data;
 using Data_Access_Layer.DB;
 
-namespace Data_Accesst_Layer
+namespace Data_Access_Layer
 {
     public class Product
     {

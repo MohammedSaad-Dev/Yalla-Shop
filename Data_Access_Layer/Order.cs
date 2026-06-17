@@ -6,10 +6,10 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Data_Accesst_Layer.OrderData;
+using static Data_Access_Layer.OrderData;
 
 
-namespace Data_Accesst_Layer
+namespace Data_Access_Layer
 {
     public class OrderData
     {

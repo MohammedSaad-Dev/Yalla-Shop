@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Data_Access_Layer.DB;
-namespace Data_Accesst_Layer
+namespace Data_Access_Layer
 {
     public class PaymentD
     {

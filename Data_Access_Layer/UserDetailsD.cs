@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data_Accesst_Layer
+namespace Data_Access_Layer
 {
     public class UserDetailsD
     {
