@@ -16,7 +16,6 @@ builder.Services.AddEndpointsApiExplorer();
 
 
 
-// --- بداية كود الـ Swagger المطور ---
 builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -39,9 +38,7 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
-// --- نهاية كود الـ Swagger ---
 
-// --- بداية كود الـ JWT ---
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -60,7 +57,7 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
-// --- نهاية كود الـ JWT ---
+
 
 
 
@@ -77,9 +74,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyCorsPolicy", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // السماح لزميلك بتاع الفرونت
-              .AllowAnyMethod() // السماح بـ GET, POST, OPTIONS, إلخ
-              .AllowAnyHeader(); // السماح بـ Content-Type و Authorization
+        policy.WithOrigins("http://localhost:5173") 
+              .AllowAnyMethod() 
+              .AllowAnyHeader(); 
 
     });
 }); 
